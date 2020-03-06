@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta name="description" content="V2Server" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<title>用户登入 - V2Server</title>	
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/misc-pages.css">
+	<link rel="stylesheet" href="css/app.css">	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="css/js/script.min.js"></script>
+	<script src="css/js/main.js"></script>
+	<script src="css/js/clipboard.min.js"></script>		
+
+</head>
+
+<body class="simple-page">
+	<div class="simple-page-wrap">
+		<div class="simple-page-logo animated swing">
+			<a href="#" target="_blank">
+				<span><i class="fa fa-sign-in"></i></span>
+				<span>用户登录</span>
+			</a>
+		</div>
+				<div class="simple-page-form animated flipInY" id="login-form">
+			<form method="post" action="https://server.s-r.pw/dologin.php">
+<input type="hidden" name="token" value="5b3cc9841ae73054611277056357fc14ceeb0649" />
+				<div class="form-group">
+					<input id="inputEmail" name="username" type="email" class="form-control" placeholder="邮件地址">
+				</div>
+
+				<div class="form-group">
+					<input id="inputPassword" name="password" type="password" class="form-control" placeholder="密码">
+				</div>
+
+				<div class="form-group m-b-xl">
+					<div class="checkbox checkbox-primary">
+						<input type="checkbox" id="rememberme"/>
+						<label for="rememberme">自动登录</label>
+					</div>
+				</div>
+				<input type="submit" class="btn btn-primary" value="登录">
+			</form>
+		</div>
+
+		<div class="simple-page-footer">
+			<p class="copyright pull-left"><a href="/SignUp.html" target="_blank">注册账户</a></p>
+			<p class="footer-menu pull-right"><a href="https://server.s-r.pw/pwreset.php" target="_blank">忘记密码？</a></p>
+		</div>
+
+	</div>
+</body>
+</body>
+</html>
